@@ -5,8 +5,8 @@ document.getElementById('tgForm').addEventListener('submit', function(e){
   const message = this.message.value;
   
   // === ВСТАВЬ СВОИ ДАННЫЕ НИЖЕ ===
-  const TOKEN = 'ВАШ_ТОКЕН_БОТА';
-  const CHAT_ID = 'ВАШ_CHAT_ID';
+  const TOKEN = '8488681723:AAGEPZIixoFXCygJBRpG3ANlem_Hxxvi6oQ';
+  const CHAT_ID = '1406846320';
   // ===============================
 
   const text = `Новая заявка с сайта РЕГАРТ-М:%0AИмя: ${name}%0AТелефон: ${phone}%0AСообщение: ${message}`;
